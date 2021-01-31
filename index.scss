@@ -1,0 +1,90 @@
+@font-face {
+    font-family: fff-forward;
+    src: url(./fff-forward.regular.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(42, 44, 61);
+    font-family: fff-forward;
+    font-size: large;
+    color: white;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3.5% 0;
+    
+        .logo {
+            text-decoration: none;
+            color: palevioletred;
+            font-size: 40px;
+            margin-left: 5%;
+        }
+    
+        .navigation {
+            display: flex;
+            align-items: center;
+    
+            .box {
+                display: inline-block;
+                margin-right: 10px;
+                padding: 15px 5px;
+    
+                a {
+                    text-decoration: none;
+                    color: white;
+                    padding: 10px 30px;
+            
+                    &:hover {
+                        color: rgb(0, 255, 0);
+                    }
+                }
+            }
+        
+        }
+    
+    }
+    
+    .content {
+        padding: 2% 7%;
+        font-size: 20px;
+        font-family: 'Roboto Mono', monospace;
+
+        .name {
+            color: rgb(108, 186, 255);
+        }
+
+        span {
+            color: rgb(0, 250, 0);
+        }
+
+        .explore {
+
+            h2 {
+                margin-top: 40px;
+                text-decoration: underline;
+                font-size: 25px;
+                font-family: fff-forward;
+            }
+
+            .posts {
+                p {
+                    font-size: 20px;
+                    margin-top: 20px;
+                    margin-left: 30px;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

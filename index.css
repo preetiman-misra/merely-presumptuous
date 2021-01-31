@@ -1,0 +1,95 @@
+@font-face {
+  font-family: fff-forward;
+  src: url(./fff-forward.regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2c3d;
+  font-family: fff-forward;
+  font-size: large;
+  color: white;
+}
+
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3.5% 0;
+}
+
+body .header .logo {
+  text-decoration: none;
+  color: palevioletred;
+  font-size: 40px;
+  margin-left: 5%;
+}
+
+body .header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .header .navigation .box {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 15px 5px;
+}
+
+body .header .navigation .box a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+}
+
+body .header .navigation .box a:hover {
+  color: lime;
+}
+
+body .content {
+  padding: 2% 7%;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body .content .name {
+  color: #6cbaff;
+}
+
+body .content span {
+  color: #00fa00;
+}
+
+body .content .explore h2 {
+  margin-top: 40px;
+  text-decoration: underline;
+  font-size: 25px;
+  font-family: fff-forward;
+}
+
+body .content .explore .posts p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+body .content .explore .posts p:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=index.css.map */
